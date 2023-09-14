@@ -38,3 +38,22 @@ nav {
   align-items: center;
   height: 17vh;
 }
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: rgb(160, 85, 221);
+  text-decoration: none;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(102, 37, 73);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(134, 48, 191);
+}
