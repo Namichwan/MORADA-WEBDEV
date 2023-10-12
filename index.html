@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My WebDev</title>
+    <title>My Web Site</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo"><a href="#"><img src="./assets/logo.png"></a></div>
+      <div class="logo">
+        <a href="#"><img src="./assets/logo.png" /></a>
+      </div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -20,7 +22,9 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-       <div class="logo"><a href="#"><img src="./assets/logo.png"></a></div>
+      <div class="logo">
+        <a href="#"><img src="./assets/logo.png" /></a>
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -37,7 +41,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/bgp1.jpg"  alt="Profile Picture" class="about-pic" />
+        <img src="./assets/bgp1.jpg" alt="Profile Picture" class="about-pic" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I am</p>
@@ -48,10 +52,10 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/CV1.pdf')"
           >
-            Download CV
+            Curriculum Vitae
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Information
+            Contact Info
           </button>
         </div>
         <div id="socials-container">
@@ -65,7 +69,7 @@
             src="./assets/facebook (1).png"
             alt="My facebook Profile"
             class="icon"
-            onclick="location.href='https://www.facebook.com/JayEmm22'"
+            onclick="location.href='https://www.facebook.com/JayEmm2'"
           />
         </div>
       </div>
@@ -80,23 +84,24 @@
             alt="Profile Picture"
             class="about-pic"
           />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <p>
+                Hi! I am Joanna, 21 years old and currently studying in
+                Technological University of the Philippines - Manila, a third
+                year student taking Bachelor of Science in Information
+                Technology. I am a hard working young woman who is willing to
+                learn more, responsible enough and approachable.
+              </p>
             </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Hi! I am Joanna, 21 years old and currently studying in<br>
-              Technological University of the Philippines - Manila, <br>a third year
-              student taking Bachelor of Science in Information Technology. <br>I am
-              a hard working young woman who is willing to learn more,<br>
-              responsible enough and approachable.
-            </p>
           </div>
         </div>
       </div>
-    
     </section>
     <section id="experience">
-      <P class="section__text__p1">Explore My</P>
+      <P class="section__text__p1">Explore My Skills</P>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-container">
@@ -195,8 +200,8 @@
         </div>
       </div>
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Previous</p>
+     <section id="projects">
+      <p class="section__text__p1">Browse My Previous Activities</p>
       <h1 class="title">Projects</h1>
       <div class="experience_details-container">
         <div class="about-container">
@@ -204,7 +209,9 @@
             <div class="article-container">
               <img src="./assets/prj1.png" alt="project 1" class="project-img"/>
             </div>
-            <h2 class="experience-sub-title project-title">Project Una</h2>
+            <h2 class="experience-sub-title project-title">Mobile User Interface</h2>
+            <h1>This project named On-The-GO! was made like a famous applications, "angkas" and "joyride" where people can book a service to go on their destination. </h1>
+            
             <div class="btn-container">
             </div>
           </div>
@@ -212,7 +219,8 @@
             <div class="article-container">
               <img src="./assets/prj2.png" alt="project 1" class="project-img"/>
             </div>
-            <h2 class="experience-sub-title project-title">Project Una</h2>
+            <h2 class="experience-sub-title project-title">Python Programming Project</h2>
+            <h1>This project named LOSERAR was a File Compression/Decompression, it is a simple project that used a Phyton Language that may compress or decompress any file format.</h1>
             <div class="btn-container">
                 </div>
           </div>
@@ -220,7 +228,9 @@
             <div class="article-container">
               <img src="./assets/prj3.png" alt="project 1" class="project-img"/>
             </div>
-            <h2 class="experience-sub-title project-title">Project Una</h2>
+            <h2 class="experience-sub-title project-title">Technopreneurship</h2>
+            <h1>
+This project named TUP KONEK! was an idea to promote promote and support technopreneurship by fostering a culture of innovation, entrepreneurship, and technological advancement in society.</h1>
             <div class="btn-container">
             </div>
           </div>
@@ -235,21 +245,21 @@
           <img
             src="./assets/email.png"
             alt="Email icon"
-            class="icon contact-icon"
+            class="icon contact-icon email-icon"
           />
           <p><a href="mailto:examplemail@gmail.com">joannamarie.morada@tup.edu.ph</a></p>
         </div>
         <div class="contact-info-container">
           <img
             src="./assets/messenger.png"
-            alt="LinkedIn icon"
+            alt="Messenger icon"
             class="icon contact-icon"
           />
           <p><a href="https://www.facebook.com/JayEmm22">Jm Morada</a></p>
         </div>
       </div>
     </section>
-     <footer>
+    <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
